@@ -1,6 +1,6 @@
 # FCC Personal Portfolio | Joeylene Rivera
 
-A personal portfolio made as a requirement of the Free Code Camp's Front End Developement Course.
+A personal portfolio made as a requirement of the Free Code Camp's Front End Development Course.
 
 ![alt text](assets/img/portfolio.png "FCC Personal Portfolio | Joeylene Rivera")
 
