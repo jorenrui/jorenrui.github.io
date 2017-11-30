@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Joeylene Rivera | FCC Personal Portfolio</title>
+
+    <meta name="description" content="A personal porfolio. A requirement in FreeCodeCamp Front End Certification">
+    <meta name="author" content="Joeylene Rivera">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/merakireal.png" />
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato|Raleway" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/jquery.pagepiling.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- JS: JQuery and Page Piling -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.pagepiling.min.js"></script>
+
+    <!-- Page Piling -->
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#pagepiling').pagepiling({
+                anchors: ['home', 'skills', 'works', 'contact'],
+                sectionsColor: ['#252525', '#252525', '#252525', '#252525'],
+                navigation: {
+                    'position': 'left',
+                    'tooltips': ['Home', 'About', 'Works', 'Contact']
+                },
+                loopTop: true,
+                loopBottom: true
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div id="pagepiling">
+        <!-- Home Section -->
+        <div class="section text-center" id="home">
+            <img src="assets/img/joeylene.jpg" class="rounded-circle img-fluid" alt="Joeylene Rivera" width="250">
+            <h1 class="display-4">Hi, I'm <b>Joeylene Rivera</b></h1>
+            <h3>Computer Science Student | Future Web Developer</h3>
+            <p>Mixed with a hint of gaming and design in a sea of codes.</p>
+            <a href="#contact">
+                <button class="btn-wide" id="btnContact">CONTACT ME</button>
+            </a>
+            <div class="social-media-buttons">
+                <a target='_blank' href="https://github.com/merakireal/">
+                    <i class="fa fa-github fa-3x"></i>
+                </a>
+                <a target='_blank' href="https://www.linkedin.com/in/merakireal/">
+                    <i class="fa fa-linkedin fa-3x"></i>
+                </a>
+                <a target='_blank' href="https://twitter.com/merakireal">
+                    <i class="fa fa-twitter fa-3x"></i>
+                </a>
+                <a target='_blank' href="https://codepen.io/merakireal/">
+                    <i class="fa fa-codepen fa-3x"></i>
+                </a>
+                <a target='_blank' href="https://medium.com/@merakireal">
+                    <i class="fa fa-medium fa-3x"></i>
+                </a>
+            </div>
+        </div>
+        <!-- end Home Section -->
+        <!-- Skills Section -->
+        <div class="section container-fluid" id="skills">
+            <div class="row">
+                <div class="col-12 col-lg" id="skills-left">
+                    <h1>Skills and Experience</h1>
+                    <p>Mostly experienced in Web Development, C++, MySQL and Java. I became fascinated in Web Development during my OJT, now I'm hooked in working with HTML, CSS and JavaScript. I also have coded in PHP with CodeIgniter.
+                    </p>
+                    <p>With the desire to broaden my knowledge, I am currently venturing in the world of Web Dev.</p>
+                    <div class="skills-item">
+                        <div class="skills-item-head lead">
+                            Languages
+                        </div>
+                        <div class="skills-item-body">
+                            <p>Most experienced with C++, Java, SQL, HTML, CSS, JavaScript, PHP</p>
+                            <p>Some experience with C, COBOL, and in Android Developement using Android Studio - Java and XML</p>
+                            <p>Dabbled on Assembly Language - TASM</p>
+                        </div>
+                    </div>
+                    <div class="skills-item">
+                        <div class="skills-item-head lead">
+                            Technologies
+                        </div>
+                        <div class="skills-item-body">
+                            <p>Git, Bootstrap 3 & 4, Code Igniter 3, and jQuery</p>
+                            <p>Others: Familiar with Photoshop and Adobe Experience Design</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg" id="chartSkills">
+                </div>
+            </div>
+        </div>
+        <!-- end Skills Section -->
+        <!-- Works Section -->
+        <div class="section container-fluid" id="works">
+            <h1>WORKS</h1>
+            <p>Web Projects I've built using Bootsrap and Code Igniter</p>
+            <div class="row">
+                <div class="col">
+                    <figure>
+                        <img alt="satsc website" src="assets/img/satsc.png">
+                        <figcaption>
+                            <h3>Sta. Ana Transport Service Cooperative</h3>
+                            <p>Built a transport service cooperative website, which is a school requirement, using Code Igniter 3. I did the front-end programming, database architecture, and helped in the documentation, design and analysis of the system.
+                                It is now being used by the Sta. Ana Transport Service Cooperative.</p>
+                            <p>#Code Igniter 3, #Bootstrap 3, #Font Awesome Icons</p>
+                            <a target="_blank" href="assets/img/satsc.png">See Sample</a>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col">
+                    <figure>
+                        <img alt="affinitas website" src="assets/img/auto-insurance.png">
+                        <figcaption>
+                            <h3>Auto Insurance</h3>
+                            <p>Built an Auto Insurance Website Prototype during my OJT. I've analyzed, documented, and developed the website, with a fellow intern, using Code Igniter 3.</p>
+                            <p>#Code Igniter 3, #Bootstrap 3, #Font Awesome Icons</p>
+                            <a target="_blank" href="assets/img/auto-insurance.png">See Sample</a>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+        <!-- end Works Section -->
+        <!-- Contact Section -->
+        <div class="section container-fluid" id="contact">
+            <div class="row">
+                <div class="col-xs-12 col-sm" id="contact-left">
+                    <h1>CONTACT</h1>
+                    <p>Wanna connect? Don't hesitate and let's talk. You can also email me at
+                        <span style="color:#e84855">joeylenerivera@gmail.com</span>
+                    </p>
+                    <form method="POST" action="https://formspree.io/jtrivera1412@gmail.com">
+                        <div class="form-group row">
+                            <label for="name" class="col-lg-2">Name</label>
+                            <div class="col-lg-9">
+                                <input name="name" type="text" class="form-control" required>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="email" class="col-lg-2">Email</label>
+                            <div class="col-lg-9">
+                                <input name="email" type="email" class="form-control" required>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="subject" class="col-lg-2">Subject</label>
+                            <div class="col-lg-9">
+                                <input name="subject" type="text" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="message" class="col-lg-2">Message</label>
+                            <div class="col-lg-9">
+                                <textarea name="message" class="form-control" required></textarea>
+                            </div>
+                        </div>
+                        <button class="btn-skinny" style="margin: 0 auto" type="submit">Send</button>
+                    </form>
+                </div>
+                <div class="col-xs-12 col-sm text-center" id="contact-right">
+                    <img src="assets/img/merakireal.png" class="rounded-circle img-fluid" alt="Joeylene Rivera" height="150" width="150">
+                    <h2><b>Joeylene</b> Rivera</h2>
+                    <p>Computer Science Student | Future Web Developer</p>
+                    <p>
+                        Yo, I'm 19 years old student living in the Philippines.
+                        <br>Wanting to be a Web Developer, I am currently enrolled
+                        <br>in the <b>Free Code Camp</b> online course.
+                    </p>
+                    <p>
+                        Reading articles and books, and playing games are some of
+                        <br>the things in which I love to do.
+                    </p>
+                    <div class="social-media-buttons">
+                        <a target='_blank' href="https://github.com/merakireal/">
+                            <i class="fa fa-github fa-3x"></i>
+                        </a>
+                        <a target='_blank' href="https://www.linkedin.com/in/merakireal/">
+                            <i class="fa fa-linkedin fa-3x"></i>
+                        </a>
+                        <a target='_blank' href="https://twitter.com/merakireal">
+                            <i class="fa fa-twitter fa-3x"></i>
+                        </a>
+                        <a target='_blank' href="https://codepen.io/merakireal/">
+                            <i class="fa fa-codepen fa-3x"></i>
+                        </a>
+                        <a target='_blank' href="https://medium.com/@merakireal">
+                            <i class="fa fa-medium fa-3x"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end Contact Section -->
+    </div>
+    <div id="rotate"></div>
+
+    <!-- JavaScripts -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://cdn.zingchart.com/zingchart.min.js"></script>
+    <script type="text/javascript" src="assets/js/script.js"></script>
+</body>
+
+</html>
