@@ -24,6 +24,13 @@ i {
     color: #7a7a7a;
 }
 
+a,
+a:focus,
+a:hover,
+a:active {
+    color: #e84855;
+}
+
 b,
 label {
     color: #fff;
