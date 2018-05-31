@@ -54,7 +54,7 @@ $(document).ready(function() {
             }
         },
         series: [{
-            values: [75, 80, 75, 70, 60, 75, 70],
+            values: [70, 75, 60, 55, 45, 70, 60],
             backgroundColor: lightRed,
             lineColor: lightRed,
             legendItem: {
