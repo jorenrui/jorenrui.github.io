@@ -1,8 +1,8 @@
-$(document).ready(function() {
+$(document).ready(function () {
     /* Home Section - btnContact transition content */
-    $('#btnContact').hover(function() {
+    $('#btnContact').hover(function () {
         $(this).text('joeylenerivera@gmail.com');
-    }, function() {
+    }, function () {
         $(this).text('CONTACT ME');
     });
 
@@ -26,11 +26,11 @@ $(document).ready(function() {
             alphaArea: '.6',
         },
         scaleK: {
-            labels: ['HTML & CSS', 'JavaScript', 'Java', 'C++', 'COBOL', 'MySQL', 'PHP'],
+            labels: ['HTML & CSS', 'JavaScript', 'Java', 'Laravel', 'CodeIgniter', 'MySQL', 'PHP'],
             item: {
                 fontColor: white,
                 rules: [{
-                    rule: '%i == 0 || %i == 1 || %i == 5 || %i == 6',
+                    rule: '%i == 0 || %i == 1 || %i == 3 || %i == 5 || %i == 6',
                     fontColor: lightRed
                 }]
             },
@@ -54,7 +54,7 @@ $(document).ready(function() {
             }
         },
         series: [{
-            values: [70, 75, 60, 55, 45, 70, 60],
+            values: [70, 70, 40, 50, 30, 70, 60],
             backgroundColor: lightRed,
             lineColor: lightRed,
             legendItem: {
