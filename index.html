@@ -1,269 +1,309 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
     <title>Joeylene Rivera | Portfolio</title>
 
-    <meta name="description" content="Joeylene Rivera is a web developer based in the Philippines">
-    <meta name="author" content="Joeylene Rivera">
+    <meta
+      name="description"
+      content="Joeylene Rivera is a web developer based in the Philippines"
+    />
+    <meta name="author" content="Joeylene Rivera" />
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/merakireal.png" />
 
     <!-- Fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato|Raleway" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
 
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/jquery.pagepiling.css" />
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
 
     <!-- JS: JQuery and Page Piling -->
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"
+    ></script>
     <script type="text/javascript" src="assets/js/jquery.pagepiling.min.js"></script>
 
     <!-- Page Piling -->
     <script type="text/javascript">
-        $(document).ready(function () {
-            $('#pagepiling').pagepiling({
-                anchors: ['home', 'skills', 'works', 'contact'],
-                sectionsColor: ['#252525', '#252525', '#252525', '#252525'],
-                navigation: {
-                    'position': 'left',
-                    'tooltips': ['Home', 'About', 'Works', 'Contact']
-                },
-                loopTop: true,
-                loopBottom: true
-            });
+      $(document).ready(function() {
+        $('#pagepiling').pagepiling({
+          anchors: ['home', 'skills', 'works', 'contact'],
+          sectionsColor: ['#252525', '#252525', '#252525', '#252525'],
+          navigation: {
+            position: 'left',
+            tooltips: ['Home', 'About', 'Works', 'Contact']
+          },
+          loopTop: true,
+          loopBottom: true
         });
+      });
     </script>
-</head>
+  </head>
 
-<body>
+  <body>
     <div id="pagepiling">
-        <!-- Home Section -->
-        <div class="section text-center" id="home">
-            <img src="assets/img/joeylene.jpg" class="rounded-circle img-fluid img-cover" alt="Joeylene Rivera">
-            <h1 class="display-4">Hi, I'm
-                <b>Joeylene Rivera</b>
-            </h1>
-            <h3>Web Developer</h3>
+      <!-- Home Section -->
+      <div class="section text-center" id="home">
+        <img
+          src="assets/img/joeylene.jpg"
+          class="rounded-circle img-fluid img-cover"
+          alt="Joeylene Rivera"
+        />
+        <h1 class="display-4">
+          Hi, I'm
+          <b>Joeylene Rivera</b>
+        </h1>
+        <h3>Web Developer</h3>
+        <p>
+          Constantly learning web technologies. Love to design and read books. Writing my ideas on
+          <a target="_blank" href="https://dev.to/jorenrui">DEV.to</a>
+        </p>
+        <a href="#contact">
+          <button class="btn-wide" id="btnContact">CONTACT ME</button>
+        </a>
+        <div class="social-media-buttons">
+          <a target="_blank" href="https://github.com/jorenrui/">
+            <i class="fab fa-github fa-3x" title="Joeylene Rivera's GitHub Profile"></i>
+          </a>
+          <a target="_blank" href="https://gitlab.com/jorenrui/">
+            <i class="fab fa-gitlab fa-3x" title="Joeylene Rivera's GitLab Profile"></i>
+          </a>
+          <a target="_blank" href="https://www.linkedin.com/in/jorenrui/">
+            <i class="fab fa-linkedin fa-3x" title="Joeylene Rivera's LinkedIn Profile"></i>
+          </a>
+          <a target="_blank" href="https://twitter.com/jorenrui/">
+            <i class="fab fa-twitter fa-3x" title="Joeylene Rivera's Twitter Profile"></i>
+          </a>
+          <a target="_blank" href="https://codepen.io/jorenrui/">
+            <i class="fab fa-codepen fa-3x" title="Joeylene Rivera's CodePen Profile"></i>
+          </a>
+          <a target="_blank" href="https://instagram.com/jorenrui/">
+            <i class="fab fa-instagram fa-3x" title="Joeylene Rivera's Instagram Profile"></i>
+          </a>
+          <a target="_blank" href="https://dev.to/jorenrui">
+            <i class="fab fa-dev fa-3x" title="Joeylene Rivera's DEV Profile"></i>
+          </a>
+        </div>
+      </div>
+      <!-- end Home Section -->
+      <!-- Skills Section -->
+      <div class="section container-fluid" id="skills">
+        <div class="row">
+          <div class="col-12 col-lg" id="skills-left">
+            <h1>Skills and Experience</h1>
             <p>
-                Constantly learning web technologies. Love to design and read books.
+              I'm a <b>Web Developer</b>. I use jQuery and Bootstrap for Front End, and MySQL and
+              Laravel for Back End Development. <br /><br />
+              For design, I use Photoshop, and Adobe Experience Design for prototyping.
             </p>
-            <a href="#contact">
-                <button class="btn-wide" id="btnContact">CONTACT ME</button>
-            </a>
+            <p>
+              I am always learning code in which I've received my
+              <a href="https://www.freecodecamp.org/certification/merakireal/legacy-front-end">
+                FreeCodeCamp Front End Development Certificate
+              </a>
+              . In my free time I work on my pet projects which you can either find at
+              <a href="https://codepen.io/jorenrui" target="_blank">
+                CodePen
+              </a>
+              or
+              <a href="https://gitlab.com/jorenrui" target="_blank"> GitLab </a>.
+            </p>
+            <div class="skills-item">
+              <div class="skills-item-head lead">
+                Languages
+              </div>
+              <div class="skills-item-body">
+                <p>Most experienced with MySQL, HTML, CSS, and JavaScript</p>
+                <p>Some experience with Java and PHP</p>
+                <p>Dabbled on C/C++, COBOL, Java (Android), and Assembly Language - TASM</p>
+              </div>
+            </div>
+            <div class="skills-item">
+              <div class="skills-item-head lead">
+                Technologies
+              </div>
+              <div class="skills-item-body">
+                <p>Dev Techs: Git, Bootstrap 3 & 4, Laravel 5, Code Igniter 3, and jQuery</p>
+                <p>Design Tools: Adobe Photoshop, Illustrator and Adobe XD</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg" id="chartSkills"></div>
+        </div>
+      </div>
+      <!-- end Skills Section -->
+      <!-- Works Section -->
+      <div class="section container-fluid" id="works">
+        <h1>WORKS</h1>
+        <p>Web Projects I've built using Bootstrap and Code Igniter</p>
+        <div class="row">
+          <div class="col">
+            <figure>
+              <img alt="satsc website" src="assets/img/satsc.png" />
+              <figcaption>
+                <h3>Sta. Ana Transport Service Cooperative</h3>
+                <p>
+                  Built a transport service cooperative website, which is a school requirement,
+                  using Code Igniter 3. I did the front-end programming, database architecture, and
+                  helped in the documentation, design and analysis of the system. It is now being
+                  used by the Sta. Ana Transport Service Cooperative.
+                </p>
+                <p>#Code Igniter 3, #Bootstrap 3, #Font Awesome Icons</p>
+                <a target="_blank" href="assets/img/satsc.png">See Sample</a>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col">
+            <figure>
+              <img alt="affinitas website" src="assets/img/auto-insurance.png" />
+              <figcaption>
+                <h3>Auto Insurance</h3>
+                <p>
+                  Built an Auto Insurance Website Prototype during my OJT. I've analyzed,
+                  documented, and developed the website, with a fellow intern, using Code Igniter 3.
+                </p>
+                <p>#Code Igniter 3, #Bootstrap 3, #Font Awesome Icons</p>
+                <a target="_blank" href="assets/img/auto-insurance.png">See Sample</a>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+      <!-- end Works Section -->
+      <!-- Contact Section -->
+      <div class="section container-fluid" id="contact">
+        <!-- GitHub Corner -->
+        <a
+          href="https://github.com/merakireal/merakireal.github.io"
+          class="github-corner"
+          aria-label="View source on Github"
+        >
+          <svg
+            width="80"
+            height="80"
+            viewbox="0 0 250 250"
+            style="fill:#fff; color:#151513; position: absolute; top: 0; border: 0; right: 0;"
+            aria-hidden="true"
+          >
+            <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+            <path
+              d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+              fill="currentColor"
+              style="transform-origin: 130px 106px;"
+              class="octo-arm"
+            ></path>
+            <path
+              d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+              fill="currentColor"
+              class="octo-body"
+            ></path>
+          </svg>
+        </a>
+        <!-- end GitHub Corner -->
+        <div class="row">
+          <div class="col-xs-12 col-sm" id="contact-left">
+            <h1>CONTACT</h1>
+            <p>
+              Wanna connect? Don't hesitate and let's talk. You can also email me at
+              <span style="color:#e84855">joeylenerivera@gmail.com</span>
+            </p>
+            <form method="POST" action="https://formspree.io/jtrivera1412@gmail.com">
+              <div class="form-group row">
+                <label for="name" class="col-lg-2">Name</label>
+                <div class="col-lg-9">
+                  <input name="name" type="text" class="form-control" required />
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="email" class="col-lg-2">Email</label>
+                <div class="col-lg-9">
+                  <input name="email" type="email" class="form-control" required />
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="subject" class="col-lg-2">Subject</label>
+                <div class="col-lg-9">
+                  <input name="subject" type="text" class="form-control" />
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="message" class="col-lg-2">Message</label>
+                <div class="col-lg-9">
+                  <textarea name="message" class="form-control" required></textarea>
+                </div>
+              </div>
+              <button class="btn-skinny" style="margin: 0 auto" type="submit">Send</button>
+            </form>
+          </div>
+          <div class="col-xs-12 col-sm text-center" id="contact-right">
+            <img
+              src="assets/img/merakireal.png"
+              class="rounded-circle img-fluid"
+              alt="Joeylene Rivera"
+              height="150"
+              width="150"
+            />
+            <h2><b>Joeylene</b> Rivera</h2>
+            <p>Web Developer</p>
+            <p>
+              I'm 20 years old and currently living in the
+              <b>Philippines</b>. <br />A FCC camper and an Information Technology Student.
+            </p>
+            <p>
+              In my free time, you can either find me working on my<br />personal projects learning
+              web technologies, designing <br />or reading books. I also write my ideas on
+              <a target="_blank" href="https://dev.to/jorenrui">DEV.to</a>
+            </p>
             <div class="social-media-buttons">
-                <a target="_blank" href="https://github.com/jorenrui/">
-                    <i class="fa fa-github fa-3x"></i>
-                </a>
-                <a target="_blank" href="https://gitlab.com/jorenrui/">
-                    <i class="fa fa-gitlab fa-3x"></i>
-                </a>
-                <a target="_blank" href="https://www.linkedin.com/in/jorenrui/">
-                    <i class="fa fa-linkedin fa-3x"></i>
-                </a>
-                <a target="_blank" href="https://twitter.com/jorenrui/">
-                    <i class="fa fa-twitter fa-3x"></i>
-                </a>
-                <a target="_blank" href="https://codepen.io/jorenrui/">
-                    <i class="fa fa-codepen fa-3x"></i>
-                </a>
-                <a target="_blank" href="https://instagram.com/jorenrui/">
-                    <i class="fa fa-instagram fa-3x"></i>
-                </a>
+              <a target="_blank" href="https://github.com/jorenrui/">
+                <i class="fab fa-github fa-3x" title="Joeylene Rivera's GitHub Profile"></i>
+              </a>
+              <a target="_blank" href="https://gitlab.com/jorenrui/">
+                <i class="fab fa-gitlab fa-3x" title="Joeylene Rivera's GitLab Profile"></i>
+              </a>
+              <a target="_blank" href="https://www.linkedin.com/in/jorenrui/">
+                <i class="fab fa-linkedin fa-3x" title="Joeylene Rivera's LinkedIn Profile"></i>
+              </a>
+              <a target="_blank" href="https://twitter.com/jorenrui/">
+                <i class="fab fa-twitter fa-3x" title="Joeylene Rivera's Twitter Profile"></i>
+              </a>
+              <a target="_blank" href="https://codepen.io/jorenrui/">
+                <i class="fab fa-codepen fa-3x" title="Joeylene Rivera's CodePen Profile"></i>
+              </a>
+              <a target="_blank" href="https://instagram.com/jorenrui/">
+                <i class="fab fa-instagram fa-3x" title="Joeylene Rivera's Instagram Profile"></i>
+              </a>
+              <a target="_blank" href="https://dev.to/jorenrui">
+                <i class="fab fa-dev fa-3x" title="Joeylene Rivera's DEV Profile"></i>
+              </a>
             </div>
+          </div>
         </div>
-        <!-- end Home Section -->
-        <!-- Skills Section -->
-        <div class="section container-fluid" id="skills">
-            <div class="row">
-                <div class="col-12 col-lg" id="skills-left">
-                    <h1>Skills and Experience</h1>
-                    <p>
-                        I'm a <b>Web Developer</b>.
-                        I use jQuery and Bootstrap for Front End, and MySQL and Laravel for
-                        Back End Development.
-                        <br><br>
-                        For design, I use Photoshop, and Adobe Experience Design for prototyping.
-                    </p>
-                    <p>
-                        I am always learning code in which I've received my
-                        <a href="https://www.freecodecamp.org/certification/merakireal/legacy-front-end">
-                            FreeCodeCamp Front End Development Certificate
-                        </a>
-                        . In my free time I work on my pet projects which you can either find at
-                        <a href="https://codepen.io/jorenrui" target="_blank">
-                            CodePen
-                        </a>
-                        or
-                        <a href="https://gitlab.com/jorenrui" target="_blank">
-                            GitLab
-                        </a>.
-                    </p>
-                    <div class="skills-item">
-                        <div class="skills-item-head lead">
-                            Languages
-                        </div>
-                        <div class="skills-item-body">
-                            <p>Most experienced with MySQL, HTML, CSS, and JavaScript</p>
-                            <p>Some experience with Java and PHP</p>
-                            <p>Dabbled on C/C++, COBOL, Java (Android), and Assembly Language - TASM</p>
-                        </div>
-                    </div>
-                    <div class="skills-item">
-                        <div class="skills-item-head lead">
-                            Technologies
-                        </div>
-                        <div class="skills-item-body">
-                            <p>Dev Techs: Git, Bootstrap 3 & 4, Laravel 5, Code Igniter 3, and jQuery</p>
-                            <p>Design Tools: Adobe Photoshop, Illustrator and Adobe XD</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-lg" id="chartSkills">
-                </div>
-            </div>
-        </div>
-        <!-- end Skills Section -->
-        <!-- Works Section -->
-        <div class="section container-fluid" id="works">
-            <h1>WORKS</h1>
-            <p>Web Projects I've built using Bootstrap and Code Igniter</p>
-            <div class="row">
-                <div class="col">
-                    <figure>
-                        <img alt="satsc website" src="assets/img/satsc.png">
-                        <figcaption>
-                            <h3>Sta. Ana Transport Service Cooperative</h3>
-                            <p>Built a transport service cooperative website, which is a school requirement, using Code
-                                Igniter
-                                3. I did the front-end programming, database architecture, and helped in the
-                                documentation,
-                                design and analysis of the system. It is now being used by the Sta. Ana Transport
-                                Service
-                                Cooperative.
-                            </p>
-                            <p>#Code Igniter 3, #Bootstrap 3, #Font Awesome Icons</p>
-                            <a target="_blank" href="assets/img/satsc.png">See Sample</a>
-                        </figcaption>
-                    </figure>
-                </div>
-                <div class="col">
-                    <figure>
-                        <img alt="affinitas website" src="assets/img/auto-insurance.png">
-                        <figcaption>
-                            <h3>Auto Insurance</h3>
-                            <p>Built an Auto Insurance Website Prototype during my OJT. I've analyzed, documented, and
-                                developed
-                                the website, with a fellow intern, using Code Igniter 3.</p>
-                            <p>#Code Igniter 3, #Bootstrap 3, #Font Awesome Icons</p>
-                            <a target="_blank" href="assets/img/auto-insurance.png">See Sample</a>
-                        </figcaption>
-                    </figure>
-                </div>
-            </div>
-        </div>
-        <!-- end Works Section -->
-        <!-- Contact Section -->
-        <div class="section container-fluid" id="contact">
-            <!-- GitHub Corner -->
-            <a href="https://github.com/merakireal/merakireal.github.io" class="github-corner" aria-label="View source on Github">
-                <svg width="80" height="80" viewbox="0 0 250 250" style="fill:#fff; color:#151513; position: absolute; top: 0; border: 0; right: 0;"
-                    aria-hidden="true">
-                    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
-                    <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
-                        fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
-                    <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
-                        fill="currentColor" class="octo-body"></path>
-                </svg>
-            </a>
-            <!-- end GitHub Corner -->
-            <div class="row">
-                <div class="col-xs-12 col-sm" id="contact-left">
-                    <h1>CONTACT</h1>
-                    <p>Wanna connect? Don't hesitate and let's talk. You can also email me at
-                        <span style="color:#e84855">joeylenerivera@gmail.com</span>
-                    </p>
-                    <form method="POST" action="https://formspree.io/jtrivera1412@gmail.com">
-                        <div class="form-group row">
-                            <label for="name" class="col-lg-2">Name</label>
-                            <div class="col-lg-9">
-                                <input name="name" type="text" class="form-control" required>
-                            </div>
-                        </div>
-                        <div class="form-group row">
-                            <label for="email" class="col-lg-2">Email</label>
-                            <div class="col-lg-9">
-                                <input name="email" type="email" class="form-control" required>
-                            </div>
-                        </div>
-                        <div class="form-group row">
-                            <label for="subject" class="col-lg-2">Subject</label>
-                            <div class="col-lg-9">
-                                <input name="subject" type="text" class="form-control">
-                            </div>
-                        </div>
-                        <div class="form-group row">
-                            <label for="message" class="col-lg-2">Message</label>
-                            <div class="col-lg-9">
-                                <textarea name="message" class="form-control" required></textarea>
-                            </div>
-                        </div>
-                        <button class="btn-skinny" style="margin: 0 auto" type="submit">Send</button>
-                    </form>
-                </div>
-                <div class="col-xs-12 col-sm text-center" id="contact-right">
-                    <img src="assets/img/merakireal.png" class="rounded-circle img-fluid" alt="Joeylene Rivera" height="150"
-                        width="150">
-                    <h2>
-                        <b>Joeylene</b> Rivera</h2>
-                    <p>Web Developer</p>
-                    <p>
-                        I'm 20 years old and currently living in the
-                        <b>Philippines</b>.
-                        <br>A FCC camper and an Information Technology Student.
-                    </p>
-                    <p>
-                        In my free time, you can either find me working on my personal projects
-                        <br> learning web technologies, designing or reading books.
-                    </p>
-                    <div class="social-media-buttons">
-                        <a target="_blank" href="https://github.com/jorenrui/">
-                            <i class="fa fa-github fa-3x"></i>
-                        </a>
-                        <a target="_blank" href="https://gitlab.com/jorenrui/">
-                            <i class="fa fa-gitlab fa-3x"></i>
-                        </a>
-                        <a target="_blank" href="https://www.linkedin.com/in/jorenrui/">
-                            <i class="fa fa-linkedin fa-3x"></i>
-                        </a>
-                        <a target="_blank" href="https://twitter.com/jorenrui/">
-                            <i class="fa fa-twitter fa-3x"></i>
-                        </a>
-                        <a target="_blank" href="https://codepen.io/jorenrui/">
-                            <i class="fa fa-codepen fa-3x"></i>
-                        </a>
-                        <a target="_blank" href="https://instagram.com/jorenrui/">
-                            <i class="fa fa-instagram fa-3x"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- end Contact Section -->
+      </div>
+      <!-- end Contact Section -->
     </div>
     <div id="rotate"></div>
 
     <!-- JavaScripts -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
-        integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+      integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+      crossorigin="anonymous"
+    ></script>
     <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="https://cdn.zingchart.com/zingchart.min.js"></script>
     <script type="text/javascript" src="assets/js/script.js"></script>
-</body>
-
+  </body>
 </html>
