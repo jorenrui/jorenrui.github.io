@@ -101,6 +101,12 @@ button:hover {
     color: #e84855;
 }
 
+#cta {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
 
 /* Skills Section
  * --------------------------------------- */
